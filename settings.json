@@ -1,0 +1,49 @@
+{
+    "application": {
+        "single_instance_guid": ""
+    },
+    "debugging": {
+        "show_console": false,
+        "log_level": "DEBUG4",
+        "log_file": "debug.log"
+    },
+    "main_window": {
+        "title": "mTools for Maxdata Sistemas | By Maracaipe",
+        "icon": "",
+        "default_size": [470, 565],
+        "minimum_size": [470, 565],
+        "maximum_size": [470, 565],        
+        "disable_maximize_button": true,
+        "center_on_screen": true,
+        "start_maximized": false
+    },
+    "popup_window": {
+        "icon": "",
+        "fixed_title": "mTools for Maxdata Sistemas | By Maracaipe"
+    },
+    "web_server": {
+        "listen_on": ["127.0.0.1", 0],
+        "www_directory": "app",
+        "index_files": ["index.php"],
+        "cgi_interpreter": "php/php-cgi.exe",
+        "cgi_extensions": ["php"],
+        "cgi_temp_dir": "",
+        "404_handler": "/index.php"
+    },
+    "msie": {
+        "error_page": "app/_error-page.html",
+        "smooth_scroll": false,
+        "enable_f5_refresh": true,
+        "show_context_menu": false,
+        "use_themes": true,
+        "disable_script_debugger": true,
+        "hide_dialog_boxes": false,
+        "silent_operations": false,
+        "autocomplete_forms": false,
+        "windowed_select_control": true,
+        "disable_scrollbars": false,
+        "flat_scrollbars": false,
+        "utf8_url_encoding": true,
+        "dpi_aware": false
+    }
+}
