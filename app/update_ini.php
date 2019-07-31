@@ -10,7 +10,7 @@
     $iniFile = MAX_INI;
 
     $dbName = strtoupper($_POST['dbName']);
-    $srvName = $_POST['srvName'];
+    $srvName = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
     // gravando o nome do banco de dados 
     $file = file_get_contents($iniFile);    

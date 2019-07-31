@@ -154,7 +154,12 @@
 						<img src="images/menu/internal-drive.png" width="48" height="48">Max
 					</a></li>							
 					
-				</ul>
+				</ul>		
+				
+			</div>
+		</div>
+	</section>
+</article>
 
 				<?php
 					$connect = odbc_connect('DB','sa','macro01');
@@ -162,24 +167,20 @@
 					$result = odbc_exec($connect , $sql);
 				?>
 				
-				<form method="POST" name="EDIT" action="update_ini.php" class="form">
-					<!--<input type="text" name="dbName" placeholder="Initial catalog" required>-->	
-									
-						<select name="dbName" class="">
-								<option select disabled> Selecione o DB </option>
-							<?php while (odbc_fetch_row($result) ) { ?>	
-								<option value="<?php echo odbc_result($result, 'name');?>"> <?php echo odbc_result($result, 'name');?> </option>
-							<?php } odbc_close($connect); ?>					
+			
+				<center>
+					<form method="POST" name="EDIT" action="update_ini.php" >
+						<select name="dbName" onchange='if(this.value != 0) { this.form.submit(); }'>
+									<option select disabled value="0"> Selecione o DB </option>
+								<?php while (odbc_fetch_row($result) ) { ?>	
+									<option value="<?php echo odbc_result($result, 'name');?>"> <?php echo odbc_result($result, 'name');?> </option>
+								<?php } odbc_close($connect); ?>					
 						</select>	
-												
-						<input type="text" name="srvName" placeholder="Data Source" value="<?php echo gethostbyaddr($_SERVER['REMOTE_ADDR']); ?>" required>
-					<button type="submit" class="small"> Update</button>								
-				</form>
-				
-			</div>	
-		</div>
-	</section>
-</article>
+					</form>
+			</center>
+			
+
+
 	
 		<!--<a href="teste.php">teste</a>-->
 	
@@ -207,8 +208,6 @@
 	
 	<!-- Charts library -->
 	<!--Load the AJAX API-->
-		
-	<script src="http://www.google.com/jsapi"></script>	
 	
     
 </body>
