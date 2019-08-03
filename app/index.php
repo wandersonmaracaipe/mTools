@@ -171,7 +171,7 @@
 				<center>
 					<form method="POST" name="EDIT" action="update_ini.php" >
 						<select name="dbName" onchange='if(this.value != 0) { this.form.submit(); }'>
-									<option select disabled value="0"> Selecione o DB </option>
+									<option select disabled value="0"> Initial Catalog </option>
 								<?php while (odbc_fetch_row($result) ) { ?>	
 									<option value="<?php echo odbc_result($result, 'name');?>"> <?php echo odbc_result($result, 'name');?> </option>
 								<?php } odbc_close($connect); ?>					

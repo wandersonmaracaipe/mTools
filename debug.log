@@ -54648,3 +54648,982 @@
 - 13:26:21.907 DEBUG: Mongoose webserver stopped immediately
 - 13:26:21.907 INFO: Ended application
 - 13:26:21.907 INFO: --------------------------------------------------------
+- 13:28:16.000 INFO: --------------------------------------------------------
+- 13:28:16.000 INFO: Started application
+- 13:28:16.000 INFO: Logging to: C:\mTools\debug.log
+- 13:28:16.000 INFO: Log level = DEBUG4
+- 13:28:16.000 INFO: Starting Mongoose 3.9c web server
+- 13:28:16.000 INFO: WWW directory: C:\mTools\app
+- 13:28:16.000 INFO: Index files: index.php
+- 13:28:16.000 INFO: CGI interpreter: C:\mTools\php\php-cgi.exe
+- 13:28:16.000 INFO: CGI pattern: **.php$
+- 13:28:16.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WANDER~1\AppData\Local\Temp\
+- 13:28:16.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=1.14
+- 13:28:16.016 INFO: Web server url: http://127.0.0.1:64227/
+- 13:28:16.016 INFO: IE version from registry: 9.11.17134.0
+- 13:28:16.016 DEBUG: FEATURE_XMLHTTP succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_WINDOW_RESTRICTIONS succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_WEBOC_POPUPMANAGEMENT succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_RESTRICT_ACTIVEXINSTALL succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_RESTRICT_FILEDOWNLOAD succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_DISABLE_NAVIGATION_SOUNDS succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_FORCE_ADDR_AND_STATUS succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_BEHAVIORS succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_UNC_SAVEDFILECHECK succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_BLOCK_INPUT_PROMPTS succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_TABBED_BROWSING succeeded: 1
+- 13:28:16.016 DEBUG: FEATURE_ADDON_MANAGEMENT succeeded: 1
+- 13:28:16.016 DEBUG: GetBrowserWindow(): not found, hwnd = 2884252
+- 13:28:16.016 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:28:16.016 DEBUG: BrowserWindow(): parentHandle = 0
+- 13:28:16.031 DEBUG: OleClientSite::QueryInterface(): IServiceProvider
+- 13:28:16.031 DEBUG: OleClientSite::QueryInterface(): IOleInPlaceSite
+- 13:28:16.031 DEBUG: OleClientSite::QueryInterface(): IDispatch
+- 13:28:16.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2884252
+- 13:28:16.047 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 13:28:16.047 DEBUG: OleClientSite::QueryInterface(): IUnknown
+- 13:28:16.047 DEBUG: OleClientSite::QueryInterface(): DWebBrowserEvents2
+- 13:28:16.047 DEBUG: OleClientSite::QueryInterface(): IDocHostUIHandler
+- 13:28:16.047 DEBUG: OleClientSite::QueryInterface(): IDocHostShowUI
+- 13:28:16.078 DEBUG: StoreBrowserWindow(): hwnd = 2884252
+- 13:28:16.187 DEBUG: DISPID_AMBIENT_DLCONTROL
+- 13:28:16.187 DEBUG: DocHostUiHandler::GetOptionKeyPath(): registry path: Software\PHP Desktop\MSIE
+- 13:28:16.203 INFO: GET 200 /css/reset.css?x=0
+- 13:28:16.203 INFO: GET 200 /css/common.css?x=0
+- 13:28:16.203 INFO: GET 200 /css/form.css?x=0
+- 13:28:16.203 INFO: GET 200 /css/standard.css?x=0
+- 13:28:16.266 INFO: GET 200 /
+- 13:28:16.266 INFO: GET 200 /css/960.gs.fluid.css
+- 13:28:16.266 INFO: GET 200 /css/simple-lists.css
+- 13:28:16.266 INFO: GET 200 /css/block-lists.css
+- 13:28:16.266 INFO: GET 200 /css/planning.css
+- 13:28:16.281 INFO: GET 200 /css/table.css
+- 13:28:16.281 INFO: GET 200 /css/calendars.css
+- 13:28:16.281 INFO: GET 200 /css/wizard.css
+- 13:28:16.281 INFO: GET 200 /css/gallery.css
+- 13:28:16.281 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 13:28:16.297 INFO: GET 200 /images/logo-maxdata.png
+- 13:28:16.312 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 13:28:16.312 INFO: GET 200 /images/menu/manager.png
+- 13:28:16.312 INFO: GET 200 /images/menu/manute.png
+- 13:28:16.312 INFO: GET 200 /images/menu/PDV.png
+- 13:28:16.312 INFO: GET 200 /images/menu/food.png
+- 13:28:16.312 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 13:28:17.312 INFO: GET 200 /images/menu/atualiza.png
+- 13:28:17.312 INFO: GET 200 /js/old-browsers.js
+- 13:28:17.312 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 13:28:17.312 INFO: GET 200 /js/jquery.accessibleList.js
+- 13:28:17.328 INFO: GET 200 /js/searchField.js
+- 13:28:17.328 INFO: GET 200 /js/common.js
+- 13:28:17.328 INFO: GET 200 /js/standard.js
+- 13:28:17.328 INFO: GET 200 /js/jquery.tip.js
+- 13:28:17.328 INFO: GET 200 /js/jquery.contextMenu.js
+- 13:28:17.328 INFO: GET 200 /js/jquery.modal.js
+- 13:28:17.328 INFO: GET 200 /js/list.js
+- 13:28:17.328 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 13:28:17.328 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 13:28:17.344 INFO: GET 200 /images/menu/mmc.png
+- 13:28:17.344 INFO: GET 200 /images/menu/SQL.png
+- 13:28:17.344 INFO: GET 200 /images/menu/internal-drive.png
+- 13:28:17.406 INFO: GET 200 /css/custom.css?x=0
+- 13:28:17.484 INFO: GET 200 /images/bg.png
+- 13:28:17.516 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 13:28:17.516 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 13:28:26.469 INFO: POST 302 /update_ini.php
+- 13:28:26.562 INFO: GET 304 /css/reset.css?x=0
+- 13:28:26.562 INFO: GET 304 /css/common.css?x=0
+- 13:28:26.562 INFO: GET 304 /css/form.css?x=0
+- 13:28:26.562 INFO: GET 304 /css/standard.css?x=0
+- 13:28:26.594 INFO: GET 200 /index.php
+- 13:28:26.594 INFO: GET 304 /css/960.gs.fluid.css
+- 13:28:26.594 INFO: GET 304 /css/simple-lists.css
+- 13:28:26.594 INFO: GET 304 /css/block-lists.css
+- 13:28:26.594 INFO: GET 304 /css/planning.css
+- 13:28:26.594 INFO: GET 304 /css/table.css
+- 13:28:26.594 INFO: GET 304 /css/calendars.css
+- 13:28:26.594 INFO: GET 304 /css/wizard.css
+- 13:28:26.594 INFO: GET 304 /css/gallery.css
+- 13:28:26.594 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 13:28:26.625 INFO: GET 304 /images/logo-maxdata.png
+- 13:28:26.625 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 13:28:26.625 INFO: GET 304 /images/menu/manager.png
+- 13:28:26.625 INFO: GET 304 /images/menu/manute.png
+- 13:28:26.625 INFO: GET 304 /images/menu/PDV.png
+- 13:28:26.625 INFO: GET 304 /images/menu/food.png
+- 13:28:26.625 INFO: GET 304 /images/menu/atualiza.png
+- 13:28:26.625 INFO: GET 304 /images/menu/mmc.png
+- 13:28:26.625 INFO: GET 304 /images/menu/SQL.png
+- 13:28:26.625 INFO: GET 304 /images/menu/internal-drive.png
+- 13:28:26.641 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 13:28:26.641 INFO: GET 304 /js/old-browsers.js
+- 13:28:26.641 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 13:28:26.641 INFO: GET 304 /js/jquery.accessibleList.js
+- 13:28:26.641 INFO: GET 304 /js/searchField.js
+- 13:28:26.641 INFO: GET 304 /js/common.js
+- 13:28:26.641 INFO: GET 304 /js/standard.js
+- 13:28:26.641 INFO: GET 304 /js/jquery.tip.js
+- 13:28:26.641 INFO: GET 304 /js/jquery.contextMenu.js
+- 13:28:26.641 INFO: GET 304 /js/jquery.modal.js
+- 13:28:26.641 INFO: GET 304 /js/list.js
+- 13:28:26.641 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 13:28:26.641 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 13:28:26.687 INFO: GET 200 /css/custom.css?x=0
+- 13:28:26.734 INFO: GET 304 /images/bg.png
+- 13:28:26.766 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 13:28:26.766 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 13:28:28.781 INFO: POST 302 /update_ini.php
+- 13:28:28.859 INFO: GET 304 /css/reset.css?x=0
+- 13:28:28.859 INFO: GET 304 /css/common.css?x=0
+- 13:28:28.859 INFO: GET 304 /css/form.css?x=0
+- 13:28:28.859 INFO: GET 304 /css/standard.css?x=0
+- 13:28:28.906 INFO: GET 200 /index.php
+- 13:28:28.906 INFO: GET 304 /css/960.gs.fluid.css
+- 13:28:28.906 INFO: GET 304 /css/simple-lists.css
+- 13:28:28.906 INFO: GET 304 /css/block-lists.css
+- 13:28:28.906 INFO: GET 304 /css/planning.css
+- 13:28:28.906 INFO: GET 304 /css/table.css
+- 13:28:28.906 INFO: GET 304 /css/calendars.css
+- 13:28:28.906 INFO: GET 304 /css/wizard.css
+- 13:28:28.922 INFO: GET 304 /css/gallery.css
+- 13:28:28.922 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 13:28:28.937 INFO: GET 304 /images/logo-maxdata.png
+- 13:28:28.937 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 13:28:28.953 INFO: GET 304 /images/menu/manager.png
+- 13:28:28.953 INFO: GET 304 /images/menu/manute.png
+- 13:28:28.953 INFO: GET 304 /images/menu/PDV.png
+- 13:28:28.953 INFO: GET 304 /images/menu/food.png
+- 13:28:28.953 INFO: GET 304 /images/menu/atualiza.png
+- 13:28:28.953 INFO: GET 304 /images/menu/mmc.png
+- 13:28:28.953 INFO: GET 304 /images/menu/SQL.png
+- 13:28:28.953 INFO: GET 304 /images/menu/internal-drive.png
+- 13:28:28.953 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 13:28:28.953 INFO: GET 304 /js/old-browsers.js
+- 13:28:28.953 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 13:28:28.953 INFO: GET 304 /js/jquery.accessibleList.js
+- 13:28:28.953 INFO: GET 304 /js/searchField.js
+- 13:28:28.953 INFO: GET 304 /js/common.js
+- 13:28:28.953 INFO: GET 304 /js/standard.js
+- 13:28:28.953 INFO: GET 304 /js/jquery.tip.js
+- 13:28:28.953 INFO: GET 304 /js/jquery.contextMenu.js
+- 13:28:28.953 INFO: GET 304 /js/jquery.modal.js
+- 13:28:28.953 INFO: GET 304 /js/list.js
+- 13:28:28.953 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 13:28:28.953 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 13:28:28.016 INFO: GET 200 /css/custom.css?x=0
+- 13:28:28.062 INFO: GET 304 /images/bg.png
+- 13:28:28.094 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 13:28:28.094 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 13:35:40.891 INFO: GET 200 /images/icons/finefiles/32/default.png
+- 13:35:41.656 DEBUG: RemoveBrowserWindow(): hwnd = 2884252
+- 13:35:41.656 DEBUG: BrowserWindow::CloseBrowserControl()
+- 13:35:41.687 INFO: Stopping Mongoose web server
+- 13:35:41.687 DEBUG: Mongoose webserver stopped immediately
+- 13:35:41.687 INFO: Ended application
+- 13:35:41.687 INFO: --------------------------------------------------------
+- 13:36:34.000 INFO: --------------------------------------------------------
+- 13:36:34.000 INFO: Started application
+- 13:36:34.000 INFO: Logging to: C:\mTools\debug.log
+- 13:36:34.000 INFO: Log level = DEBUG4
+- 13:36:34.000 INFO: Starting Mongoose 3.9c web server
+- 13:36:34.015 INFO: WWW directory: C:\mTools\app
+- 13:36:34.015 INFO: Index files: index.php
+- 13:36:34.015 INFO: CGI interpreter: C:\mTools\php\php-cgi.exe
+- 13:36:34.015 INFO: CGI pattern: **.php$
+- 13:36:34.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WANDER~1\AppData\Local\Temp\
+- 13:36:34.015 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=1.14
+- 13:36:34.015 INFO: Web server url: http://127.0.0.1:64412/
+- 13:36:34.015 INFO: IE version from registry: 9.11.17134.0
+- 13:36:34.015 DEBUG: FEATURE_XMLHTTP succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_WINDOW_RESTRICTIONS succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_WEBOC_POPUPMANAGEMENT succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_RESTRICT_ACTIVEXINSTALL succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_RESTRICT_FILEDOWNLOAD succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_DISABLE_NAVIGATION_SOUNDS succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_FORCE_ADDR_AND_STATUS succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_BEHAVIORS succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_UNC_SAVEDFILECHECK succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_BLOCK_INPUT_PROMPTS succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_TABBED_BROWSING succeeded: 1
+- 13:36:34.015 DEBUG: FEATURE_ADDON_MANAGEMENT succeeded: 1
+- 13:36:34.015 DEBUG: GetBrowserWindow(): not found, hwnd = 4325878
+- 13:36:34.015 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:36:34.015 DEBUG: BrowserWindow(): parentHandle = 0
+- 13:36:34.031 DEBUG: OleClientSite::QueryInterface(): IServiceProvider
+- 13:36:34.031 DEBUG: OleClientSite::QueryInterface(): IOleInPlaceSite
+- 13:36:34.031 DEBUG: OleClientSite::QueryInterface(): IDispatch
+- 13:36:34.046 DEBUG: GetBrowserWindow(): not found, hwnd = 4325878
+- 13:36:34.046 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 13:36:34.046 DEBUG: OleClientSite::QueryInterface(): IUnknown
+- 13:36:34.046 DEBUG: OleClientSite::QueryInterface(): DWebBrowserEvents2
+- 13:36:34.062 DEBUG: OleClientSite::QueryInterface(): IDocHostUIHandler
+- 13:36:34.062 DEBUG: OleClientSite::QueryInterface(): IDocHostShowUI
+- 13:36:34.093 DEBUG: StoreBrowserWindow(): hwnd = 4325878
+- 13:36:34.187 DEBUG: DISPID_AMBIENT_DLCONTROL
+- 13:36:34.187 DEBUG: DocHostUiHandler::GetOptionKeyPath(): registry path: Software\PHP Desktop\MSIE
+- 13:36:34.203 INFO: GET 200 /css/reset.css?x=0
+- 13:36:34.218 INFO: GET 200 /css/common.css?x=0
+- 13:36:34.218 INFO: GET 200 /css/form.css?x=0
+- 13:36:34.218 INFO: GET 200 /css/standard.css?x=0
+- 13:36:34.265 INFO: GET 200 /
+- 13:36:34.265 INFO: GET 200 /css/960.gs.fluid.css
+- 13:36:34.281 INFO: GET 200 /css/simple-lists.css
+- 13:36:34.281 INFO: GET 200 /css/block-lists.css
+- 13:36:34.281 INFO: GET 200 /css/planning.css
+- 13:36:34.281 INFO: GET 200 /css/table.css
+- 13:36:34.281 INFO: GET 200 /css/calendars.css
+- 13:36:34.296 INFO: GET 200 /css/wizard.css
+- 13:36:34.296 INFO: GET 200 /css/gallery.css
+- 13:36:34.296 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 13:36:34.312 INFO: GET 200 /images/logo-maxdata.png
+- 13:36:34.312 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 13:36:34.328 INFO: GET 200 /images/menu/manager.png
+- 13:36:34.328 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 13:36:34.328 INFO: GET 200 /js/old-browsers.js
+- 13:36:34.328 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 13:36:34.343 INFO: GET 200 /js/searchField.js
+- 13:36:34.343 INFO: GET 200 /js/jquery.accessibleList.js
+- 13:36:34.343 INFO: GET 200 /js/common.js
+- 13:36:34.343 INFO: GET 200 /js/standard.js
+- 13:36:34.343 INFO: GET 200 /js/jquery.tip.js
+- 13:36:34.343 INFO: GET 200 /js/jquery.contextMenu.js
+- 13:36:34.359 INFO: GET 200 /js/jquery.modal.js
+- 13:36:34.359 INFO: GET 200 /js/list.js
+- 13:36:34.359 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 13:36:34.359 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 13:36:34.375 INFO: GET 200 /images/menu/manute.png
+- 13:36:34.375 INFO: GET 200 /images/menu/PDV.png
+- 13:36:34.375 INFO: GET 200 /images/menu/food.png
+- 13:36:34.375 INFO: GET 200 /images/menu/atualiza.png
+- 13:36:34.375 INFO: GET 200 /images/menu/mmc.png
+- 13:36:34.375 INFO: GET 200 /images/menu/SQL.png
+- 13:36:34.375 INFO: GET 200 /images/menu/internal-drive.png
+- 13:36:35.421 INFO: GET 200 /css/custom.css?x=0
+- 13:36:35.500 INFO: GET 200 /images/bg.png
+- 13:36:35.531 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 13:36:35.531 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 13:36:37.843 DEBUG: RemoveBrowserWindow(): hwnd = 4325878
+- 13:36:37.843 DEBUG: BrowserWindow::CloseBrowserControl()
+- 13:36:37.859 INFO: Stopping Mongoose web server
+- 13:36:37.859 DEBUG: Mongoose webserver stopped immediately
+- 13:36:37.859 INFO: Ended application
+- 13:36:37.859 INFO: --------------------------------------------------------
+- 13:47:41.016 INFO: --------------------------------------------------------
+- 13:47:41.016 INFO: Started application
+- 13:47:41.016 INFO: Logging to: C:\mTools\debug.log
+- 13:47:41.016 INFO: Log level = DEBUG4
+- 13:47:41.016 INFO: Starting Mongoose 3.9c web server
+- 13:47:41.016 INFO: WWW directory: C:\mTools\app
+- 13:47:41.016 INFO: Index files: index.php
+- 13:47:41.016 INFO: CGI interpreter: C:\mTools\php\php-cgi.exe
+- 13:47:41.016 INFO: CGI pattern: **.php$
+- 13:47:41.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WANDER~1\AppData\Local\Temp\
+- 13:47:41.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=1.14
+- 13:47:41.016 INFO: Web server url: http://127.0.0.1:64668/
+- 13:47:41.016 INFO: IE version from registry: 9.11.17134.0
+- 13:47:41.016 DEBUG: FEATURE_XMLHTTP succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_WINDOW_RESTRICTIONS succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_WEBOC_POPUPMANAGEMENT succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_RESTRICT_ACTIVEXINSTALL succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_RESTRICT_FILEDOWNLOAD succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_DISABLE_NAVIGATION_SOUNDS succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_FORCE_ADDR_AND_STATUS succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_BEHAVIORS succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_UNC_SAVEDFILECHECK succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_BLOCK_INPUT_PROMPTS succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_TABBED_BROWSING succeeded: 1
+- 13:47:41.016 DEBUG: FEATURE_ADDON_MANAGEMENT succeeded: 1
+- 13:47:41.016 DEBUG: GetBrowserWindow(): not found, hwnd = 328490
+- 13:47:41.016 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:47:41.031 DEBUG: BrowserWindow(): parentHandle = 0
+- 13:47:41.031 DEBUG: OleClientSite::QueryInterface(): IServiceProvider
+- 13:47:41.031 DEBUG: OleClientSite::QueryInterface(): IOleInPlaceSite
+- 13:47:41.047 DEBUG: OleClientSite::QueryInterface(): IDispatch
+- 13:47:41.047 DEBUG: GetBrowserWindow(): not found, hwnd = 328490
+- 13:47:41.047 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 13:47:41.047 DEBUG: OleClientSite::QueryInterface(): IUnknown
+- 13:47:41.047 DEBUG: OleClientSite::QueryInterface(): DWebBrowserEvents2
+- 13:47:41.062 DEBUG: OleClientSite::QueryInterface(): IDocHostUIHandler
+- 13:47:41.062 DEBUG: OleClientSite::QueryInterface(): IDocHostShowUI
+- 13:47:41.094 DEBUG: StoreBrowserWindow(): hwnd = 328490
+- 13:47:41.219 DEBUG: DISPID_AMBIENT_DLCONTROL
+- 13:47:41.219 DEBUG: DocHostUiHandler::GetOptionKeyPath(): registry path: Software\PHP Desktop\MSIE
+- 13:47:41.219 INFO: GET 200 /css/reset.css?x=0
+- 13:47:41.234 INFO: GET 200 /css/common.css?x=0
+- 13:47:41.234 INFO: GET 200 /css/form.css?x=0
+- 13:47:41.234 INFO: GET 200 /css/standard.css?x=0
+- 13:47:41.281 INFO: GET 200 /
+- 13:47:41.281 INFO: GET 200 /css/960.gs.fluid.css
+- 13:47:41.297 INFO: GET 200 /css/simple-lists.css
+- 13:47:41.297 INFO: GET 200 /css/block-lists.css
+- 13:47:41.297 INFO: GET 200 /css/planning.css
+- 13:47:41.297 INFO: GET 200 /css/table.css
+- 13:47:41.297 INFO: GET 200 /css/calendars.css
+- 13:47:41.312 INFO: GET 200 /css/wizard.css
+- 13:47:41.312 INFO: GET 200 /css/gallery.css
+- 13:47:41.312 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 13:47:41.344 INFO: GET 200 /images/logo-maxdata.png
+- 13:47:41.344 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 13:47:41.344 INFO: GET 200 /images/menu/manager.png
+- 13:47:41.344 INFO: GET 200 /images/menu/manute.png
+- 13:47:41.344 INFO: GET 200 /js/old-browsers.js
+- 13:47:41.344 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 13:47:41.344 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 13:47:41.344 INFO: GET 200 /js/jquery.accessibleList.js
+- 13:47:41.359 INFO: GET 200 /js/searchField.js
+- 13:47:41.359 INFO: GET 200 /js/common.js
+- 13:47:41.359 INFO: GET 200 /js/standard.js
+- 13:47:41.375 INFO: GET 200 /js/jquery.tip.js
+- 13:47:41.375 INFO: GET 200 /js/jquery.contextMenu.js
+- 13:47:41.375 INFO: GET 200 /js/jquery.modal.js
+- 13:47:41.375 INFO: GET 200 /js/list.js
+- 13:47:41.391 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 13:47:41.391 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 13:47:41.391 INFO: GET 200 /images/menu/PDV.png
+- 13:47:41.391 INFO: GET 200 /images/menu/food.png
+- 13:47:41.391 INFO: GET 200 /images/menu/atualiza.png
+- 13:47:41.406 INFO: GET 200 /images/menu/mmc.png
+- 13:47:41.406 INFO: GET 200 /images/menu/SQL.png
+- 13:47:41.406 INFO: GET 200 /images/menu/internal-drive.png
+- 13:47:41.469 INFO: GET 200 /css/custom.css?x=0
+- 13:47:41.531 INFO: GET 200 /images/bg.png
+- 13:47:42.562 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 13:47:42.562 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 14:07:00.797 INFO: GET 200 /images/icons/finefiles/32/default.png
+- 14:07:50.281 INFO: GET 304 /css/reset.css?x=0
+- 14:07:50.281 INFO: GET 304 /css/common.css?x=0
+- 14:07:50.297 INFO: GET 304 /css/form.css?x=0
+- 14:07:50.312 INFO: GET 304 /css/standard.css?x=0
+- 14:07:50.344 INFO: GET 200 /
+- 14:07:50.500 INFO: GET 200 /css/custom.css?x=0
+- 14:07:50.531 INFO: GET 304 /css/960.gs.fluid.css
+- 14:07:50.531 INFO: GET 304 /css/simple-lists.css
+- 14:07:50.547 INFO: GET 304 /css/block-lists.css
+- 14:07:50.562 INFO: GET 304 /css/planning.css
+- 14:07:51.578 INFO: GET 304 /css/table.css
+- 14:07:51.578 INFO: GET 304 /css/calendars.css
+- 14:07:51.594 INFO: GET 304 /css/wizard.css
+- 14:07:51.594 INFO: GET 304 /css/gallery.css
+- 14:07:51.594 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 14:07:51.594 INFO: GET 304 /images/logo-maxdata.png
+- 14:07:51.609 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 14:07:51.609 INFO: GET 304 /images/menu/manager.png
+- 14:07:51.609 INFO: GET 304 /images/menu/manute.png
+- 14:07:51.609 INFO: GET 304 /images/menu/PDV.png
+- 14:07:51.609 INFO: GET 304 /images/menu/food.png
+- 14:07:51.609 INFO: GET 304 /images/menu/atualiza.png
+- 14:07:51.609 INFO: GET 304 /images/menu/mmc.png
+- 14:07:51.625 INFO: GET 304 /images/menu/SQL.png
+- 14:07:51.625 INFO: GET 304 /images/menu/internal-drive.png
+- 14:07:51.703 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 14:07:51.703 INFO: GET 304 /images/bg.png
+- 14:07:51.734 INFO: GET 304 /js/old-browsers.js
+- 14:07:51.734 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 14:07:51.750 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 14:07:51.766 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 14:07:51.766 INFO: GET 304 /js/jquery.accessibleList.js
+- 14:07:51.781 INFO: GET 304 /js/searchField.js
+- 14:07:51.812 INFO: GET 304 /js/common.js
+- 14:07:51.812 INFO: GET 304 /js/standard.js
+- 14:07:51.828 INFO: GET 304 /js/jquery.tip.js
+- 14:07:51.844 INFO: GET 304 /js/jquery.contextMenu.js
+- 14:07:51.859 INFO: GET 304 /js/jquery.modal.js
+- 14:07:51.859 INFO: GET 304 /js/list.js
+- 14:07:51.906 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 14:07:51.937 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 14:08:00.969 DEBUG: RemoveBrowserWindow(): hwnd = 328490
+- 14:08:00.969 DEBUG: BrowserWindow::CloseBrowserControl()
+- 14:08:00.000 INFO: Stopping Mongoose web server
+- 14:08:00.000 DEBUG: Mongoose webserver stopped immediately
+- 14:08:00.000 INFO: Ended application
+- 14:08:00.000 INFO: --------------------------------------------------------
+- 14:08:13.000 INFO: --------------------------------------------------------
+- 14:08:13.000 INFO: Started application
+- 14:08:13.000 INFO: Logging to: C:\mTools\debug.log
+- 14:08:13.000 INFO: Log level = DEBUG4
+- 14:08:13.000 INFO: Starting Mongoose 3.9c web server
+- 14:08:13.000 INFO: WWW directory: C:\mTools\app
+- 14:08:13.000 INFO: Index files: index.php
+- 14:08:13.000 INFO: CGI interpreter: C:\mTools\php\php-cgi.exe
+- 14:08:13.000 INFO: CGI pattern: **.php$
+- 14:08:13.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WANDER~1\AppData\Local\Temp\
+- 14:08:13.015 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=1.14
+- 14:08:13.015 INFO: Web server url: http://127.0.0.1:65106/
+- 14:08:13.015 INFO: IE version from registry: 9.11.17134.0
+- 14:08:13.015 DEBUG: FEATURE_XMLHTTP succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_WINDOW_RESTRICTIONS succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_WEBOC_POPUPMANAGEMENT succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_RESTRICT_ACTIVEXINSTALL succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_RESTRICT_FILEDOWNLOAD succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_DISABLE_NAVIGATION_SOUNDS succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_FORCE_ADDR_AND_STATUS succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_BEHAVIORS succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_UNC_SAVEDFILECHECK succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_BLOCK_INPUT_PROMPTS succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_TABBED_BROWSING succeeded: 1
+- 14:08:13.015 DEBUG: FEATURE_ADDON_MANAGEMENT succeeded: 1
+- 14:08:13.015 DEBUG: GetBrowserWindow(): not found, hwnd = 1377620
+- 14:08:13.015 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:08:13.015 DEBUG: BrowserWindow(): parentHandle = 0
+- 14:08:13.031 DEBUG: OleClientSite::QueryInterface(): IServiceProvider
+- 14:08:13.031 DEBUG: OleClientSite::QueryInterface(): IOleInPlaceSite
+- 14:08:13.031 DEBUG: OleClientSite::QueryInterface(): IDispatch
+- 14:08:13.046 DEBUG: GetBrowserWindow(): not found, hwnd = 1377620
+- 14:08:13.046 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 14:08:13.046 DEBUG: OleClientSite::QueryInterface(): IUnknown
+- 14:08:13.046 DEBUG: OleClientSite::QueryInterface(): DWebBrowserEvents2
+- 14:08:13.046 DEBUG: OleClientSite::QueryInterface(): IDocHostUIHandler
+- 14:08:13.046 DEBUG: OleClientSite::QueryInterface(): IDocHostShowUI
+- 14:08:13.078 DEBUG: StoreBrowserWindow(): hwnd = 1377620
+- 14:08:13.187 DEBUG: DISPID_AMBIENT_DLCONTROL
+- 14:08:13.187 DEBUG: DocHostUiHandler::GetOptionKeyPath(): registry path: Software\PHP Desktop\MSIE
+- 14:08:13.203 INFO: GET 200 /css/reset.css?x=0
+- 14:08:13.203 INFO: GET 200 /css/common.css?x=0
+- 14:08:13.218 INFO: GET 200 /
+- 14:08:13.218 INFO: GET 200 /css/form.css?x=0
+- 14:08:13.250 INFO: GET 200 /css/standard.css?x=0
+- 14:08:13.250 INFO: GET 200 /css/960.gs.fluid.css
+- 14:08:13.265 INFO: GET 200 /css/simple-lists.css
+- 14:08:13.281 INFO: GET 200 /css/block-lists.css
+- 14:08:13.296 INFO: GET 200 /css/planning.css
+- 14:08:13.296 INFO: GET 200 /css/table.css
+- 14:08:13.296 INFO: GET 200 /css/calendars.css
+- 14:08:13.312 INFO: GET 200 /css/wizard.css
+- 14:08:13.312 INFO: GET 200 /css/gallery.css
+- 14:08:13.312 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 14:08:13.359 INFO: GET 200 /css/custom.css?x=0
+- 14:08:13.375 INFO: GET 200 /js/old-browsers.js
+- 14:08:13.390 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 14:08:13.390 INFO: GET 200 /js/jquery.accessibleList.js
+- 14:08:13.390 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 14:08:13.406 INFO: GET 200 /js/searchField.js
+- 14:08:13.406 INFO: GET 200 /js/standard.js
+- 14:08:13.406 INFO: GET 200 /js/jquery.tip.js
+- 14:08:13.421 INFO: GET 200 /js/common.js
+- 14:08:13.421 INFO: GET 200 /js/jquery.contextMenu.js
+- 14:08:13.421 INFO: GET 200 /js/list.js
+- 14:08:13.437 INFO: GET 200 /js/jquery.modal.js
+- 14:08:13.468 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 14:08:13.468 INFO: GET 200 /images/logo-maxdata.png
+- 14:08:13.468 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 14:08:13.468 INFO: GET 200 /images/menu/manager.png
+- 14:08:13.468 INFO: GET 200 /images/menu/manute.png
+- 14:08:13.484 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 14:08:13.484 INFO: GET 200 /images/menu/PDV.png
+- 14:08:13.500 INFO: GET 200 /images/menu/food.png
+- 14:08:13.500 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 14:08:13.500 INFO: GET 200 /images/bg.png
+- 14:08:13.500 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 14:08:13.500 INFO: GET 200 /images/menu/atualiza.png
+- 14:08:13.500 INFO: GET 200 /images/menu/mmc.png
+- 14:08:13.515 INFO: GET 200 /images/menu/SQL.png
+- 14:08:13.515 INFO: GET 200 /images/menu/internal-drive.png
+- 14:08:25.531 INFO: POST 302 /update_ini.php
+- 14:08:25.640 INFO: GET 304 /css/reset.css?x=0
+- 14:08:25.640 INFO: GET 304 /css/common.css?x=0
+- 14:08:25.640 INFO: GET 304 /css/form.css?x=0
+- 14:08:25.640 INFO: GET 304 /css/standard.css?x=0
+- 14:08:25.703 INFO: GET 200 /index.php
+- 14:08:25.703 INFO: GET 304 /css/960.gs.fluid.css
+- 14:08:25.703 INFO: GET 304 /css/simple-lists.css
+- 14:08:25.703 INFO: GET 304 /css/block-lists.css
+- 14:08:25.703 INFO: GET 304 /css/planning.css
+- 14:08:25.703 INFO: GET 304 /css/table.css
+- 14:08:25.703 INFO: GET 304 /css/calendars.css
+- 14:08:25.703 INFO: GET 304 /css/wizard.css
+- 14:08:25.703 INFO: GET 304 /css/gallery.css
+- 14:08:25.703 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 14:08:25.734 INFO: GET 304 /images/logo-maxdata.png
+- 14:08:25.734 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 14:08:25.734 INFO: GET 304 /images/menu/manager.png
+- 14:08:25.734 INFO: GET 304 /images/menu/manute.png
+- 14:08:25.734 INFO: GET 304 /images/menu/PDV.png
+- 14:08:25.734 INFO: GET 304 /images/menu/food.png
+- 14:08:25.734 INFO: GET 304 /images/menu/atualiza.png
+- 14:08:25.734 INFO: GET 304 /images/menu/mmc.png
+- 14:08:25.734 INFO: GET 304 /images/menu/SQL.png
+- 14:08:25.734 INFO: GET 304 /images/menu/internal-drive.png
+- 14:08:25.734 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 14:08:25.734 INFO: GET 304 /js/old-browsers.js
+- 14:08:25.734 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 14:08:25.734 INFO: GET 304 /js/jquery.accessibleList.js
+- 14:08:25.750 INFO: GET 304 /js/searchField.js
+- 14:08:25.750 INFO: GET 304 /js/common.js
+- 14:08:25.750 INFO: GET 304 /js/standard.js
+- 14:08:25.750 INFO: GET 304 /js/jquery.tip.js
+- 14:08:25.750 INFO: GET 304 /js/jquery.contextMenu.js
+- 14:08:25.750 INFO: GET 304 /js/jquery.modal.js
+- 14:08:25.750 INFO: GET 304 /js/list.js
+- 14:08:25.750 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 14:08:25.750 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 14:08:25.765 INFO: GET 200 /css/custom.css?x=0
+- 14:08:26.828 INFO: GET 304 /images/bg.png
+- 14:08:26.859 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 14:08:26.859 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 15:49:45.468 INFO: POST 302 /update_ini.php
+- 15:49:45.562 INFO: GET 304 /css/reset.css?x=0
+- 15:49:45.562 INFO: GET 304 /css/common.css?x=0
+- 15:49:45.578 INFO: GET 304 /css/form.css?x=0
+- 15:49:45.578 INFO: GET 304 /css/standard.css?x=0
+- 15:49:45.640 INFO: GET 200 /index.php
+- 15:49:45.640 INFO: GET 304 /css/960.gs.fluid.css
+- 15:49:45.640 INFO: GET 304 /css/simple-lists.css
+- 15:49:45.640 INFO: GET 304 /css/block-lists.css
+- 15:49:45.640 INFO: GET 304 /css/planning.css
+- 15:49:45.640 INFO: GET 304 /css/table.css
+- 15:49:45.640 INFO: GET 304 /css/calendars.css
+- 15:49:45.640 INFO: GET 304 /css/wizard.css
+- 15:49:45.656 INFO: GET 304 /css/gallery.css
+- 15:49:45.656 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 15:49:45.703 INFO: GET 200 /css/custom.css?x=0
+- 15:49:45.765 INFO: GET 304 /images/logo-maxdata.png
+- 15:49:45.781 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 15:49:45.781 INFO: GET 304 /images/menu/manager.png
+- 15:49:45.796 INFO: GET 304 /images/menu/manute.png
+- 15:49:46.812 INFO: GET 304 /images/menu/PDV.png
+- 15:49:46.812 INFO: GET 304 /images/menu/food.png
+- 15:49:46.812 INFO: GET 304 /images/menu/atualiza.png
+- 15:49:46.812 INFO: GET 304 /images/menu/mmc.png
+- 15:49:46.812 INFO: GET 304 /images/menu/SQL.png
+- 15:49:46.812 INFO: GET 304 /images/menu/internal-drive.png
+- 15:49:46.812 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 15:49:46.812 INFO: GET 304 /js/old-browsers.js
+- 15:49:46.812 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 15:49:46.812 INFO: GET 304 /js/jquery.accessibleList.js
+- 15:49:46.812 INFO: GET 304 /js/searchField.js
+- 15:49:46.812 INFO: GET 304 /js/common.js
+- 15:49:46.812 INFO: GET 304 /js/standard.js
+- 15:49:46.812 INFO: GET 304 /js/jquery.tip.js
+- 15:49:46.812 INFO: GET 304 /js/jquery.contextMenu.js
+- 15:49:46.812 INFO: GET 304 /js/jquery.modal.js
+- 15:49:46.812 INFO: GET 304 /js/list.js
+- 15:49:46.828 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 15:49:46.828 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 15:49:46.828 INFO: GET 304 /images/bg.png
+- 15:49:46.859 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 15:49:46.859 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 15:49:47.484 INFO: POST 302 /update_ini.php
+- 15:49:47.578 INFO: GET 304 /css/reset.css?x=0
+- 15:49:47.578 INFO: GET 304 /css/common.css?x=0
+- 15:49:47.578 INFO: GET 304 /css/form.css?x=0
+- 15:49:47.578 INFO: GET 304 /css/standard.css?x=0
+- 15:49:47.609 INFO: GET 200 /index.php
+- 15:49:47.609 INFO: GET 304 /css/960.gs.fluid.css
+- 15:49:47.625 INFO: GET 304 /css/simple-lists.css
+- 15:49:47.625 INFO: GET 304 /css/block-lists.css
+- 15:49:47.625 INFO: GET 304 /css/planning.css
+- 15:49:47.625 INFO: GET 304 /css/table.css
+- 15:49:47.625 INFO: GET 304 /css/calendars.css
+- 15:49:47.625 INFO: GET 304 /css/wizard.css
+- 15:49:47.625 INFO: GET 304 /css/gallery.css
+- 15:49:47.625 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 15:49:47.656 INFO: GET 304 /images/logo-maxdata.png
+- 15:49:47.656 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 15:49:47.656 INFO: GET 304 /images/menu/manager.png
+- 15:49:47.656 INFO: GET 304 /images/menu/manute.png
+- 15:49:47.656 INFO: GET 304 /images/menu/PDV.png
+- 15:49:47.656 INFO: GET 304 /images/menu/food.png
+- 15:49:47.656 INFO: GET 304 /images/menu/atualiza.png
+- 15:49:47.656 INFO: GET 304 /images/menu/mmc.png
+- 15:49:47.656 INFO: GET 304 /images/menu/SQL.png
+- 15:49:47.656 INFO: GET 304 /images/menu/internal-drive.png
+- 15:49:47.656 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 15:49:47.656 INFO: GET 304 /js/old-browsers.js
+- 15:49:47.656 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 15:49:47.656 INFO: GET 304 /js/jquery.accessibleList.js
+- 15:49:47.656 INFO: GET 304 /js/searchField.js
+- 15:49:47.656 INFO: GET 304 /js/common.js
+- 15:49:47.656 INFO: GET 304 /js/standard.js
+- 15:49:47.671 INFO: GET 304 /js/jquery.tip.js
+- 15:49:47.671 INFO: GET 304 /js/jquery.contextMenu.js
+- 15:49:47.671 INFO: GET 304 /js/jquery.modal.js
+- 15:49:47.671 INFO: GET 304 /js/list.js
+- 15:49:47.671 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 15:49:47.671 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 15:49:47.734 INFO: GET 200 /css/custom.css?x=0
+- 15:49:47.781 INFO: GET 304 /images/bg.png
+- 15:49:48.812 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 15:49:48.812 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 15:49:54.015 INFO: POST 302 /update_ini.php
+- 15:49:54.109 INFO: GET 304 /css/reset.css?x=0
+- 15:49:54.109 INFO: GET 304 /css/common.css?x=0
+- 15:49:54.109 INFO: GET 304 /css/form.css?x=0
+- 15:49:54.109 INFO: GET 304 /css/standard.css?x=0
+- 15:49:54.140 INFO: GET 200 /index.php
+- 15:49:54.140 INFO: GET 304 /css/960.gs.fluid.css
+- 15:49:54.140 INFO: GET 304 /css/simple-lists.css
+- 15:49:54.140 INFO: GET 304 /css/block-lists.css
+- 15:49:54.140 INFO: GET 304 /css/planning.css
+- 15:49:54.140 INFO: GET 304 /css/table.css
+- 15:49:54.140 INFO: GET 304 /css/calendars.css
+- 15:49:54.140 INFO: GET 304 /css/wizard.css
+- 15:49:54.140 INFO: GET 304 /css/gallery.css
+- 15:49:54.140 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 15:49:54.171 INFO: GET 304 /images/logo-maxdata.png
+- 15:49:54.171 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 15:49:54.171 INFO: GET 304 /images/menu/manager.png
+- 15:49:54.171 INFO: GET 304 /images/menu/manute.png
+- 15:49:54.171 INFO: GET 304 /images/menu/PDV.png
+- 15:49:54.171 INFO: GET 304 /images/menu/food.png
+- 15:49:54.187 INFO: GET 304 /images/menu/atualiza.png
+- 15:49:54.187 INFO: GET 304 /images/menu/mmc.png
+- 15:49:54.187 INFO: GET 304 /images/menu/SQL.png
+- 15:49:54.187 INFO: GET 304 /images/menu/internal-drive.png
+- 15:49:54.187 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 15:49:54.187 INFO: GET 304 /js/old-browsers.js
+- 15:49:54.187 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 15:49:54.187 INFO: GET 304 /js/jquery.accessibleList.js
+- 15:49:54.187 INFO: GET 304 /js/searchField.js
+- 15:49:54.187 INFO: GET 304 /js/common.js
+- 15:49:54.187 INFO: GET 304 /js/standard.js
+- 15:49:54.187 INFO: GET 304 /js/jquery.tip.js
+- 15:49:54.187 INFO: GET 304 /js/jquery.contextMenu.js
+- 15:49:54.187 INFO: GET 304 /js/jquery.modal.js
+- 15:49:54.187 INFO: GET 304 /js/list.js
+- 15:49:54.187 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 15:49:54.187 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 15:49:54.250 INFO: GET 200 /css/custom.css?x=0
+- 15:49:54.296 INFO: GET 304 /images/bg.png
+- 15:49:54.328 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 15:49:54.328 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 15:50:01.609 INFO: POST 302 /update_ini.php
+- 15:50:01.703 INFO: GET 304 /css/reset.css?x=0
+- 15:50:01.703 INFO: GET 304 /css/common.css?x=0
+- 15:50:01.703 INFO: GET 304 /css/form.css?x=0
+- 15:50:01.703 INFO: GET 304 /css/standard.css?x=0
+- 15:50:01.750 INFO: GET 200 /index.php
+- 15:50:01.750 INFO: GET 304 /css/960.gs.fluid.css
+- 15:50:01.750 INFO: GET 304 /css/simple-lists.css
+- 15:50:01.750 INFO: GET 304 /css/block-lists.css
+- 15:50:01.750 INFO: GET 304 /css/planning.css
+- 15:50:01.750 INFO: GET 304 /css/table.css
+- 15:50:01.750 INFO: GET 304 /css/calendars.css
+- 15:50:01.750 INFO: GET 304 /css/wizard.css
+- 15:50:01.750 INFO: GET 304 /css/gallery.css
+- 15:50:01.750 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 15:50:01.781 INFO: GET 304 /images/logo-maxdata.png
+- 15:50:01.781 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 15:50:01.781 INFO: GET 304 /images/menu/manager.png
+- 15:50:01.781 INFO: GET 304 /images/menu/manute.png
+- 15:50:01.781 INFO: GET 304 /images/menu/PDV.png
+- 15:50:01.781 INFO: GET 304 /images/menu/food.png
+- 15:50:01.796 INFO: GET 304 /images/menu/atualiza.png
+- 15:50:01.796 INFO: GET 304 /images/menu/mmc.png
+- 15:50:01.796 INFO: GET 304 /images/menu/SQL.png
+- 15:50:01.796 INFO: GET 304 /images/menu/internal-drive.png
+- 15:50:01.796 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 15:50:01.796 INFO: GET 304 /js/old-browsers.js
+- 15:50:01.796 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 15:50:01.796 INFO: GET 304 /js/jquery.accessibleList.js
+- 15:50:02.796 INFO: GET 304 /js/searchField.js
+- 15:50:02.796 INFO: GET 304 /js/common.js
+- 15:50:02.796 INFO: GET 304 /js/standard.js
+- 15:50:02.796 INFO: GET 304 /js/jquery.tip.js
+- 15:50:02.796 INFO: GET 304 /js/jquery.contextMenu.js
+- 15:50:02.812 INFO: GET 304 /js/jquery.modal.js
+- 15:50:02.812 INFO: GET 304 /js/list.js
+- 15:50:02.812 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 15:50:02.812 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 15:50:02.859 INFO: GET 200 /css/custom.css?x=0
+- 15:50:02.921 INFO: GET 304 /images/bg.png
+- 15:50:02.937 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 15:50:02.937 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 17:06:13.890 INFO: POST 302 /update_ini.php
+- 17:06:13.984 INFO: GET 200 /css/reset.css?x=0
+- 17:06:13.984 INFO: GET 200 /css/common.css?x=0
+- 17:06:13.984 INFO: GET 200 /css/form.css?x=0
+- 17:06:13.984 INFO: GET 200 /css/standard.css?x=0
+- 17:06:13.062 INFO: GET 200 /index.php
+- 17:06:13.062 INFO: GET 200 /css/960.gs.fluid.css
+- 17:06:13.062 INFO: GET 200 /css/simple-lists.css
+- 17:06:13.078 INFO: GET 200 /css/block-lists.css
+- 17:06:13.078 INFO: GET 200 /css/planning.css
+- 17:06:13.078 INFO: GET 200 /css/table.css
+- 17:06:13.078 INFO: GET 200 /css/calendars.css
+- 17:06:13.078 INFO: GET 200 /css/wizard.css
+- 17:06:13.078 INFO: GET 200 /css/gallery.css
+- 17:06:13.078 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 17:06:13.109 INFO: GET 200 /images/logo-maxdata.png
+- 17:06:13.109 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 17:06:13.109 INFO: GET 200 /images/menu/manager.png
+- 17:06:13.109 INFO: GET 200 /images/menu/manute.png
+- 17:06:13.109 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 17:06:13.109 INFO: GET 200 /images/menu/PDV.png
+- 17:06:13.109 INFO: GET 200 /js/old-browsers.js
+- 17:06:13.125 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 17:06:13.125 INFO: GET 200 /js/jquery.accessibleList.js
+- 17:06:13.125 INFO: GET 200 /js/searchField.js
+- 17:06:13.125 INFO: GET 200 /js/common.js
+- 17:06:13.125 INFO: GET 200 /images/menu/food.png
+- 17:06:13.125 INFO: GET 200 /images/menu/atualiza.png
+- 17:06:13.125 INFO: GET 200 /images/menu/mmc.png
+- 17:06:13.125 INFO: GET 200 /images/menu/SQL.png
+- 17:06:13.125 INFO: GET 200 /images/menu/internal-drive.png
+- 17:06:13.140 INFO: GET 200 /js/standard.js
+- 17:06:13.140 INFO: GET 200 /js/jquery.tip.js
+- 17:06:13.140 INFO: GET 200 /js/jquery.contextMenu.js
+- 17:06:13.140 INFO: GET 200 /css/custom.css?x=0
+- 17:06:13.140 INFO: GET 200 /js/jquery.modal.js
+- 17:06:13.140 INFO: GET 200 /js/list.js
+- 17:06:13.140 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 17:06:13.140 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 17:06:13.218 INFO: GET 200 /images/bg.png
+- 17:06:13.234 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 17:06:13.234 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 17:53:00.375 INFO: GET 304 /css/reset.css?x=0
+- 17:53:00.375 INFO: GET 304 /css/common.css?x=0
+- 17:53:00.375 INFO: GET 304 /css/form.css?x=0
+- 17:53:00.375 INFO: GET 304 /css/standard.css?x=0
+- 17:53:00.437 INFO: GET 200 /index.php
+- 17:53:00.500 INFO: GET 200 /css/custom.css?x=0
+- 17:53:00.531 INFO: GET 304 /css/960.gs.fluid.css
+- 17:53:00.546 INFO: GET 304 /css/simple-lists.css
+- 17:53:00.546 INFO: GET 304 /css/block-lists.css
+- 17:53:00.546 INFO: GET 304 /css/planning.css
+- 17:53:00.546 INFO: GET 304 /css/table.css
+- 17:53:00.546 INFO: GET 304 /css/calendars.css
+- 17:53:00.562 INFO: GET 304 /css/wizard.css
+- 17:53:00.562 INFO: GET 304 /css/gallery.css
+- 17:53:00.562 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 17:53:00.562 INFO: GET 304 /images/logo-maxdata.png
+- 17:53:00.562 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 17:53:00.562 INFO: GET 304 /images/menu/manager.png
+- 17:53:00.578 INFO: GET 304 /images/menu/manute.png
+- 17:53:00.578 INFO: GET 304 /images/menu/PDV.png
+- 17:53:00.578 INFO: GET 304 /images/menu/food.png
+- 17:53:00.578 INFO: GET 304 /images/menu/atualiza.png
+- 17:53:00.578 INFO: GET 304 /images/menu/mmc.png
+- 17:53:00.578 INFO: GET 304 /images/menu/SQL.png
+- 17:53:00.578 INFO: GET 304 /images/menu/internal-drive.png
+- 17:53:00.578 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 17:53:00.578 INFO: GET 304 /images/bg.png
+- 17:53:00.609 INFO: GET 304 /js/old-browsers.js
+- 17:53:00.609 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 17:53:00.609 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 17:53:00.609 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 17:53:00.609 INFO: GET 304 /js/jquery.accessibleList.js
+- 17:53:00.625 INFO: GET 304 /js/searchField.js
+- 17:53:00.625 INFO: GET 304 /js/common.js
+- 17:53:00.625 INFO: GET 304 /js/standard.js
+- 17:53:00.640 INFO: GET 304 /js/jquery.tip.js
+- 17:53:00.640 INFO: GET 304 /js/jquery.contextMenu.js
+- 17:53:00.640 INFO: GET 304 /js/jquery.modal.js
+- 17:53:00.640 INFO: GET 304 /js/list.js
+- 17:53:00.640 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 17:53:00.640 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 17:53:02.765 INFO: POST 302 /update_ini.php
+- 17:53:03.875 INFO: GET 304 /css/reset.css?x=0
+- 17:53:03.875 INFO: GET 304 /css/common.css?x=0
+- 17:53:03.875 INFO: GET 304 /css/form.css?x=0
+- 17:53:03.875 INFO: GET 304 /css/standard.css?x=0
+- 17:53:03.890 INFO: GET 200 /index.php
+- 17:53:03.906 INFO: GET 304 /css/960.gs.fluid.css
+- 17:53:03.906 INFO: GET 304 /css/simple-lists.css
+- 17:53:03.906 INFO: GET 304 /css/block-lists.css
+- 17:53:03.906 INFO: GET 304 /css/planning.css
+- 17:53:03.906 INFO: GET 304 /css/table.css
+- 17:53:03.906 INFO: GET 304 /css/calendars.css
+- 17:53:03.906 INFO: GET 304 /css/wizard.css
+- 17:53:03.906 INFO: GET 304 /css/gallery.css
+- 17:53:03.906 INFO: GET 304 /js/libs/modernizr.custom.min.js
+- 17:53:03.937 INFO: GET 304 /images/logo-maxdata.png
+- 17:53:03.937 INFO: GET 304 /images/icons/fugue/application-monitor.png
+- 17:53:03.937 INFO: GET 304 /images/menu/manager.png
+- 17:53:03.937 INFO: GET 304 /images/menu/manute.png
+- 17:53:03.937 INFO: GET 304 /images/menu/PDV.png
+- 17:53:03.937 INFO: GET 304 /images/menu/food.png
+- 17:53:03.937 INFO: GET 304 /images/menu/atualiza.png
+- 17:53:03.937 INFO: GET 304 /images/menu/mmc.png
+- 17:53:03.937 INFO: GET 304 /images/menu/SQL.png
+- 17:53:03.937 INFO: GET 304 /images/menu/internal-drive.png
+- 17:53:03.937 INFO: GET 304 /js/libs/jquery-1.6.3.min.js
+- 17:53:03.937 INFO: GET 304 /js/old-browsers.js
+- 17:53:03.937 INFO: GET 304 /js/libs/jquery.hashchange.js
+- 17:53:03.937 INFO: GET 304 /js/jquery.accessibleList.js
+- 17:53:03.937 INFO: GET 304 /js/searchField.js
+- 17:53:03.937 INFO: GET 304 /js/common.js
+- 17:53:03.937 INFO: GET 304 /js/standard.js
+- 17:53:03.937 INFO: GET 304 /js/jquery.tip.js
+- 17:53:03.937 INFO: GET 304 /js/jquery.contextMenu.js
+- 17:53:03.953 INFO: GET 304 /js/jquery.modal.js
+- 17:53:03.953 INFO: GET 304 /js/list.js
+- 17:53:03.953 INFO: GET 304 /js/libs/jquery.dataTables.min.js
+- 17:53:03.953 INFO: GET 304 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 17:53:03.000 INFO: GET 200 /css/custom.css?x=0
+- 17:53:03.046 INFO: GET 304 /images/bg.png
+- 17:53:03.078 INFO: GET 304 /images/old-browsers-bg/main-nav-bg.png
+- 17:53:03.078 INFO: GET 304 /images/old-browsers-bg/status-bar-bg.png
+- 08:09:16.000 INFO: --------------------------------------------------------
+- 08:09:16.016 INFO: Started application
+- 08:09:16.016 INFO: Logging to: C:\mTools\debug.log
+- 08:09:16.016 INFO: Log level = DEBUG4
+- 08:09:16.016 INFO: Starting Mongoose 3.9c web server
+- 08:09:16.016 INFO: WWW directory: C:\mTools\app
+- 08:09:16.016 INFO: Index files: index.php
+- 08:09:16.016 INFO: CGI interpreter: C:\mTools\php\php-cgi.exe
+- 08:09:16.016 INFO: CGI pattern: **.php$
+- 08:09:16.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WANDER~1\AppData\Local\Temp\
+- 08:09:16.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=1.14
+- 08:09:16.016 INFO: Web server url: http://127.0.0.1:60630/
+- 08:09:16.016 INFO: IE version from registry: 9.11.17134.0
+- 08:09:16.016 DEBUG: FEATURE_XMLHTTP succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_WINDOW_RESTRICTIONS succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_WEBOC_POPUPMANAGEMENT succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_RESTRICT_ACTIVEXINSTALL succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_RESTRICT_FILEDOWNLOAD succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_DISABLE_NAVIGATION_SOUNDS succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_FORCE_ADDR_AND_STATUS succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_BEHAVIORS succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_UNC_SAVEDFILECHECK succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_BLOCK_INPUT_PROMPTS succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_TABBED_BROWSING succeeded: 1
+- 08:09:16.016 DEBUG: FEATURE_ADDON_MANAGEMENT succeeded: 1
+- 08:09:16.016 DEBUG: GetBrowserWindow(): not found, hwnd = 131620
+- 08:09:16.016 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 08:09:16.032 DEBUG: BrowserWindow(): parentHandle = 0
+- 08:09:16.032 DEBUG: OleClientSite::QueryInterface(): IServiceProvider
+- 08:09:16.032 DEBUG: OleClientSite::QueryInterface(): IOleInPlaceSite
+- 08:09:16.047 DEBUG: OleClientSite::QueryInterface(): IDispatch
+- 08:09:16.047 DEBUG: GetBrowserWindow(): not found, hwnd = 131620
+- 08:09:16.047 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 08:09:16.047 DEBUG: OleClientSite::QueryInterface(): IUnknown
+- 08:09:16.047 DEBUG: OleClientSite::QueryInterface(): DWebBrowserEvents2
+- 08:09:16.047 DEBUG: OleClientSite::QueryInterface(): IDocHostUIHandler
+- 08:09:16.047 DEBUG: OleClientSite::QueryInterface(): IDocHostShowUI
+- 08:09:16.094 DEBUG: StoreBrowserWindow(): hwnd = 131620
+- 08:09:17.579 DEBUG: DISPID_AMBIENT_DLCONTROL
+- 08:09:17.579 DEBUG: DocHostUiHandler::GetOptionKeyPath(): registry path: Software\PHP Desktop\MSIE
+- 08:09:17.594 INFO: GET 200 /css/reset.css?x=0
+- 08:09:17.610 INFO: GET 200 /css/common.css?x=0
+- 08:09:17.610 INFO: GET 200 /css/form.css?x=0
+- 08:09:17.625 INFO: GET 200 /css/standard.css?x=0
+- 08:09:17.641 INFO: GET 200 /
+- 08:09:17.641 INFO: GET 200 /css/960.gs.fluid.css
+- 08:09:17.657 INFO: GET 200 /css/simple-lists.css
+- 08:09:17.672 INFO: GET 200 /css/block-lists.css
+- 08:09:17.672 INFO: GET 200 /css/planning.css
+- 08:09:17.688 INFO: GET 200 /css/table.css
+- 08:09:17.688 INFO: GET 200 /css/calendars.css
+- 08:09:17.719 INFO: GET 200 /css/wizard.css
+- 08:09:17.719 INFO: GET 200 /css/gallery.css
+- 08:09:17.750 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 08:09:17.766 INFO: GET 200 /css/custom.css?x=0
+- 08:09:17.766 INFO: GET 200 /js/old-browsers.js
+- 08:09:17.782 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 08:09:17.782 INFO: GET 200 /js/jquery.accessibleList.js
+- 08:09:17.797 INFO: GET 200 /js/searchField.js
+- 08:09:17.829 INFO: GET 200 /js/common.js
+- 08:09:17.829 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 08:09:17.829 INFO: GET 200 /js/standard.js
+- 08:09:17.844 INFO: GET 200 /js/jquery.contextMenu.js
+- 08:09:17.844 INFO: GET 200 /js/jquery.tip.js
+- 08:09:17.844 INFO: GET 200 /images/bg.png
+- 08:09:17.860 INFO: GET 200 /js/list.js
+- 08:09:17.860 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 08:09:17.860 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 08:09:17.875 INFO: GET 200 /js/jquery.modal.js
+- 08:09:17.907 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 08:09:17.907 INFO: GET 200 /images/logo-maxdata.png
+- 08:09:17.907 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 08:09:17.907 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 08:09:17.907 INFO: GET 200 /images/menu/manager.png
+- 08:09:17.907 INFO: GET 200 /images/menu/manute.png
+- 08:09:17.907 INFO: GET 200 /images/menu/PDV.png
+- 08:09:17.922 INFO: GET 200 /images/menu/food.png
+- 08:09:17.922 INFO: GET 200 /images/menu/mmc.png
+- 08:09:17.922 INFO: GET 200 /images/menu/atualiza.png
+- 08:09:17.922 INFO: GET 200 /images/menu/internal-drive.png
+- 08:09:17.938 INFO: GET 200 /images/menu/SQL.png
+- 14:33:07.235 INFO: GET 200 /images/icons/finefiles/32/default.png
+- 18:10:02.282 DEBUG: RemoveBrowserWindow(): hwnd = 131620
+- 18:10:02.282 DEBUG: BrowserWindow::CloseBrowserControl()
+- 18:10:02.360 INFO: Stopping Mongoose web server
+- 18:10:02.360 DEBUG: Mongoose webserver stopped immediately
+- 18:10:02.360 INFO: Ended application
+- 18:10:02.360 INFO: --------------------------------------------------------
+- 08:04:52.016 INFO: --------------------------------------------------------
+- 08:04:52.032 INFO: Started application
+- 08:04:52.032 INFO: Logging to: C:\mTools\debug.log
+- 08:04:52.032 INFO: Log level = DEBUG4
+- 08:04:52.032 INFO: Starting Mongoose 3.9c web server
+- 08:04:52.032 INFO: WWW directory: C:\mTools\app
+- 08:04:52.032 INFO: Index files: index.php
+- 08:04:52.032 INFO: CGI interpreter: C:\mTools\php\php-cgi.exe
+- 08:04:52.032 INFO: CGI pattern: **.php$
+- 08:04:52.032 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WANDER~1\AppData\Local\Temp\
+- 08:04:52.032 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=1.14
+- 08:04:52.047 INFO: Web server url: http://127.0.0.1:53112/
+- 08:04:52.047 INFO: IE version from registry: 9.11.17134.0
+- 08:04:52.047 DEBUG: FEATURE_XMLHTTP succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_WINDOW_RESTRICTIONS succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_WEBOC_POPUPMANAGEMENT succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_RESTRICT_ACTIVEXINSTALL succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_RESTRICT_FILEDOWNLOAD succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_DISABLE_NAVIGATION_SOUNDS succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_FORCE_ADDR_AND_STATUS succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_BEHAVIORS succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_UNC_SAVEDFILECHECK succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_BLOCK_INPUT_PROMPTS succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_TABBED_BROWSING succeeded: 1
+- 08:04:52.047 DEBUG: FEATURE_ADDON_MANAGEMENT succeeded: 1
+- 08:04:52.047 DEBUG: GetBrowserWindow(): not found, hwnd = 917902
+- 08:04:52.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 08:04:52.047 DEBUG: BrowserWindow(): parentHandle = 0
+- 08:04:52.047 DEBUG: OleClientSite::QueryInterface(): IServiceProvider
+- 08:04:52.047 DEBUG: OleClientSite::QueryInterface(): IOleInPlaceSite
+- 08:04:52.063 DEBUG: OleClientSite::QueryInterface(): IDispatch
+- 08:04:52.063 DEBUG: GetBrowserWindow(): not found, hwnd = 917902
+- 08:04:52.063 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 08:04:52.063 DEBUG: OleClientSite::QueryInterface(): IUnknown
+- 08:04:52.063 DEBUG: OleClientSite::QueryInterface(): DWebBrowserEvents2
+- 08:04:52.079 DEBUG: OleClientSite::QueryInterface(): IDocHostUIHandler
+- 08:04:52.079 DEBUG: OleClientSite::QueryInterface(): IDocHostShowUI
+- 08:04:52.110 DEBUG: StoreBrowserWindow(): hwnd = 917902
+- 08:04:53.672 DEBUG: DISPID_AMBIENT_DLCONTROL
+- 08:04:53.672 DEBUG: DocHostUiHandler::GetOptionKeyPath(): registry path: Software\PHP Desktop\MSIE
+- 08:04:53.719 INFO: GET 200 /css/reset.css?x=0
+- 08:04:53.719 INFO: GET 200 /css/common.css?x=0
+- 08:04:53.735 INFO: GET 200 /css/form.css?x=0
+- 08:04:53.735 INFO: GET 200 /css/standard.css?x=0
+- 08:04:53.891 INFO: GET 200 /
+- 08:04:53.891 INFO: GET 200 /css/960.gs.fluid.css
+- 08:04:53.891 INFO: GET 200 /css/simple-lists.css
+- 08:04:53.907 INFO: GET 200 /css/block-lists.css
+- 08:04:53.907 INFO: GET 200 /css/planning.css
+- 08:04:53.907 INFO: GET 200 /css/table.css
+- 08:04:53.922 INFO: GET 200 /css/custom.css?x=0
+- 08:04:53.922 INFO: GET 200 /css/calendars.css
+- 08:04:53.922 INFO: GET 200 /css/gallery.css
+- 08:04:53.969 INFO: GET 200 /js/libs/modernizr.custom.min.js
+- 08:04:53.985 INFO: GET 200 /css/wizard.css
+- 08:04:53.000 INFO: GET 200 /js/old-browsers.js
+- 08:04:53.016 INFO: GET 200 /js/libs/jquery.hashchange.js
+- 08:04:53.032 INFO: GET 200 /js/jquery.accessibleList.js
+- 08:04:53.047 INFO: GET 200 /images/bg.png
+- 08:04:53.047 INFO: GET 200 /images/old-browsers-bg/main-nav-bg.png
+- 08:04:53.047 INFO: GET 200 /images/old-browsers-bg/status-bar-bg.png
+- 08:04:53.079 INFO: GET 200 /js/searchField.js
+- 08:04:53.110 INFO: GET 200 /js/common.js
+- 08:04:53.110 INFO: GET 200 /js/libs/jquery-1.6.3.min.js
+- 08:04:53.110 INFO: GET 200 /js/standard.js
+- 08:04:53.125 INFO: GET 200 /js/jquery.contextMenu.js
+- 08:04:53.141 INFO: GET 200 /js/jquery.tip.js
+- 08:04:53.141 INFO: GET 200 /js/list.js
+- 08:04:53.157 INFO: GET 200 /js/jquery.modal.js
+- 08:04:53.172 INFO: GET 200 /js/libs/jquery.dataTables.min.js
+- 08:04:53.172 INFO: GET 200 /images/logo-maxdata.png
+- 08:04:53.172 INFO: GET 200 /images/icons/fugue/application-monitor.png
+- 08:04:53.188 INFO: GET 200 /js/libs/jquery.datepick/jquery.datepick.min.js
+- 08:04:53.204 INFO: GET 200 /images/menu/manager.png
+- 08:04:53.204 INFO: GET 200 /images/menu/manute.png
+- 08:04:53.204 INFO: GET 200 /images/menu/food.png
+- 08:04:53.204 INFO: GET 200 /images/menu/atualiza.png
+- 08:04:53.204 INFO: GET 200 /images/menu/mmc.png
+- 08:04:53.204 INFO: GET 200 /images/menu/SQL.png
+- 08:04:53.204 INFO: GET 200 /images/menu/internal-drive.png
+- 08:04:53.204 INFO: GET 200 /images/menu/PDV.png
+- 08:19:29.610 DEBUG: RemoveBrowserWindow(): hwnd = 917902
+- 08:19:29.610 DEBUG: BrowserWindow::CloseBrowserControl()
+- 08:19:29.641 INFO: Stopping Mongoose web server
+- 08:19:29.641 DEBUG: Mongoose webserver stopped immediately
+- 08:19:29.657 INFO: Ended application
+- 08:19:29.657 INFO: --------------------------------------------------------
