@@ -163,7 +163,7 @@
 
 				<?php
 					$connect = odbc_connect('DB','sa','macro01');
-					$sql = "SELECT * FROM sys.databases where database_id > 6";
+					$sql = "SELECT * FROM sys.databases where name !='master' and name !='tempdb' and name !='model' and name !='msdb'";
 					$result = odbc_exec($connect , $sql);
 				?>
 				
